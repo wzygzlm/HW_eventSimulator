@@ -11,7 +11,12 @@
   </errorLogs>
   <warningLogs>
     <logs>
-      <synLog/>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'y_V' is power-on initialization." projectName="eventSimulator" solutionName="solution1" date="2020-04-16T18:00:21.618+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'x_V' is power-on initialization." projectName="eventSimulator" solutionName="solution1" date="2020-04-16T18:00:21.605+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'ts_V' is power-on initialization." projectName="eventSimulator" solutionName="solution1" date="2020-04-16T18:00:21.597+0200" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'lfsr' is power-on initialization." projectName="eventSimulator" solutionName="solution1" date="2020-04-16T18:00:21.404+0200" type="Warning"/>
+      </synLog>
       <simLog/>
       <mgLog/>
       <packageLog/>

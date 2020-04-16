@@ -7,40 +7,4 @@ Copyright (C) 1986-2018 Xilinx, Inc. All Rights Reserved.
 
 INFO: [SYN 201-201] Setting up clock 'default' with a period of 10ns.
 INFO: [HLS 200-10] Setting target device to 'xc7z045ffg900-1'
-INFO: [HLS 200-10] Analyzing design file 'eventSimulator/src/main.cpp' ...
-INFO: [HLS 200-10] Validating synthesis directives ...
-INFO: [HLS 200-111] Finished Checking Pragmas Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 102.824 ; gain = 45.367
-INFO: [HLS 200-111] Finished Linking Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 102.863 ; gain = 45.406
-INFO: [HLS 200-10] Starting code transformations ...
-INFO: [HLS 200-111] Finished Standard Transforms Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 114.910 ; gain = 57.453
-INFO: [HLS 200-10] Checking synthesizability ...
-INFO: [HLS 200-111] Finished Checking Synthesizability Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 122.867 ; gain = 65.410
-INFO: [XFORM 203-11] Balancing expressions in function 'randomGenerator' (eventSimulator/src/main.cpp:8)...3 expression(s) balanced.
-INFO: [HLS 200-111] Finished Pre-synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 153.125 ; gain = 95.668
-INFO: [HLS 200-111] Finished Architecture Synthesis Time (s): cpu = 00:00:02 ; elapsed = 00:00:23 . Memory (MB): peak = 155.242 ; gain = 97.785
-INFO: [HLS 200-10] Starting hardware synthesis ...
-INFO: [HLS 200-10] Synthesizing 'randomGenerator' ...
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-42] -- Implementing module 'randomGenerator'
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [SCHED 204-11] Starting scheduling ...
-INFO: [SCHED 204-11] Finished scheduling.
-INFO: [HLS 200-111]  Elapsed time: 22.857 seconds; current allocated memory: 102.175 MB.
-INFO: [BIND 205-100] Starting micro-architecture generation ...
-INFO: [BIND 205-101] Performing variable lifetime analysis.
-INFO: [BIND 205-101] Exploring resource sharing.
-INFO: [BIND 205-101] Binding ...
-INFO: [BIND 205-100] Finished micro-architecture generation.
-INFO: [HLS 200-111]  Elapsed time: 0.295 seconds; current allocated memory: 102.324 MB.
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [HLS 200-10] -- Generating RTL for module 'randomGenerator'
-INFO: [HLS 200-10] ----------------------------------------------------------------
-INFO: [RTGEN 206-500] Setting interface mode on port 'randomGenerator/randomRet' to 'ap_vld'.
-INFO: [RTGEN 206-500] Setting interface mode on function 'randomGenerator' to 'ap_ctrl_hs'.
-INFO: [RTGEN 206-100] Finished creating RTL model for 'randomGenerator'.
-INFO: [HLS 200-111]  Elapsed time: 0.196 seconds; current allocated memory: 102.506 MB.
-INFO: [HLS 200-111] Finished generating all RTL models Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 155.242 ; gain = 97.785
-INFO: [SYSC 207-301] Generating SystemC RTL for randomGenerator.
-INFO: [VHDL 208-304] Generating VHDL RTL for randomGenerator.
-INFO: [VLOG 209-307] Generating Verilog RTL for randomGenerator.
-INFO: [HLS 200-112] Total elapsed time: 24.739 seconds; peak allocated memory: 102.506 MB.
+INFO: [IMPL 213-8] Exporting RTL as a Vivado IP.
